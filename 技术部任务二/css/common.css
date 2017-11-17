@@ -1,0 +1,43 @@
+.middle{
+    width: 1000px;
+    height: 800px;
+    margin:0 auto;
+    background-image: url("../images/background.jpg");
+}
+.img{
+    vertical-align: middle;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    color: #ffffff;
+    line-height: 80px;
+    text-align: center;
+}
+.text{
+    width:1000px;
+    float:left;
+    text-align: center;
+}
+span{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+    white-space: nowrap;
+}
+.triangle-up{
+    width: 0px;
+    height: 0px;
+    border-left:50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #cc0033;
+    margin: 0 auto;
+}
+.triangle-down{
+    width: 0px;
+    height: 0px;
+    border-left:50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #cc0033;
+    margin: 0 auto;
+}
