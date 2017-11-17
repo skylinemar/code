@@ -1,0 +1,39 @@
+.middle{
+    width: 500px;
+    margin:0 auto;
+}
+/*使div居中*/
+.border1{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+}
+/*边框样式*/
+.img1{
+    margin-top: 90px;
+    margin-left: 97px;
+}
+.border2{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+/*边框样式*/
+.border3{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+}
+/*边框样式*/
+.img3{
+    width: 306px;
+    height: 319px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
