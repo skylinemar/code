@@ -1,0 +1,104 @@
+.left{
+    width: 68%;
+    height: 1080px;
+    color: #FFF;
+    text-align: center;
+    line-height: 200px;
+    overflow: hidden;/*设置超出隐藏*/
+}/*左侧css公用样式*/
+.B{
+    width:calc( 32% - 40px);
+    height: 1070px;
+    background-color: #404040;
+    color:#fff;
+    float:right;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1040px;
+    border: 10px solid #fff;
+}/*右侧css样式*/
+.A{
+    width: 100%;
+    height: 200px;
+    border: 10px solid #fff;
+    border-right: 0;
+    background-color: #404040;
+    font-size: 30px;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+}
+.C{
+    width:calc( 33.3% - 16px);
+    height: 200px;
+    border: 10px solid #fff;
+    background-color: #404040;
+    font-size: 30px;
+}/*Ccss样式*/
+.D{
+    width:calc( 33.3% - 16px);
+    height: 200px;
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid #fff;
+    background-color: #404040;
+    margin:0 auto;
+    font-size: 30px;
+
+}/*Dcss样式*/
+.E{
+    width:calc( 33.3% - 16px);
+    height: 200px;
+    border: 10px solid #fff;
+    border-right: 0;
+    background-color: #404040;
+    font-size: 30px;
+}/*Ecss样式*/
+.box2{
+    display: flex;
+    flex-direction: row;
+}
+.F{
+    width:calc( 66.7% - 16px);
+    height: 200px;
+    border: 10px solid #fff;
+    background-color: #404040;
+    font-size: 30px;
+}/*Fcss样式*/
+.G{
+    width:calc( 33.3% - 16px);
+    height: 200px;
+    border: 10px solid #fff;
+    border-right: 0;
+    background-color: #404040;
+    font-size: 30px;
+}/*Gcss样式*/
+.box3{
+    display: flex;
+    flex-direction: row;
+}
+.H{
+    width:calc( 33.3% - 16px);
+    height: 200px;
+    border: 10px solid #fff;
+    background-color: #404040;
+    font-size: 30px;
+}/*Hcss样式*/
+.I{
+    width:calc( 66.7% - 16px);
+    height: 200px;
+    border: 10px solid #fff;
+    border-right: 0;
+    background-color: #404040;
+    font-size: 30px;
+}/*Icss样式*/
+.J{
+    width: 100%;
+    height: 200px;
+    border: 10px solid #fff;
+    border-right: 20px solid #fff;
+    background-color: #404040;
+    font-size: 30px;
+    bottom:0;
+    display:inline-block;
+}/*Jcss样式*/
