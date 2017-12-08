@@ -10,9 +10,6 @@
     float:left;
     background-color:#2b333b;
 }
-.li-left{
-    margin-left: 40px;
-}
 .right{
     width: 1173px;
     font-size: 30px;
@@ -24,12 +21,13 @@
     float: left;
     padding: 30px;
 }
-.li-left1{
+.li-left1 a{
+    width: 120px;
+    font-size:30px;
+    color: #fff;
     margin-left: 40px;
     position: relative;
-}
-.li-left1:hover .item1{
-    opacity: 1;
+    overflow: hidden;
 }
 .item1{
     width:1200px;
@@ -39,12 +37,17 @@
     left: 200px;
     position:absolute;
     opacity: 0;
-    display: block;
+    z-index: -1;
     font-size: 12px;
     -webkit-transition: .8s;
 }
-.item1 h1{
+.li-left1:hover .item1{
+    opacity: 1;
+    z-index: 0;
+}
+.item1 h1,h2{
     font-size: 50px;
+    color: #000;
     margin-left: 50px;
 }
 .item1 li{
