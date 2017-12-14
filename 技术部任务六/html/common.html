@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+</head>
+<body>
+<label>请输入今天北京空气质量：<input id="aqi-input" type="text"></label>
+<button id="button">确认填写</button>
+<div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+<script type="text/javascript">
+    var button=document.getElementById("button");
+    var myMessage=document.getElementById("aqi-display");
+    button.onclick=test;//test为事件处理函数
+    function test(){
+        myMessage.innerHTML=document.getElementById("aqi-input").value;//获取输入的值并输出
+    }
+</script>
+</body>
+</html>
