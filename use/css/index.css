@@ -1,0 +1,419 @@
+        .public-header{
+            height: 110px;
+        }
+        .header-logo{
+            float:left;
+            width:68px;
+            height:30px;
+            margin-top: 50px;
+            background:url("../images/index-header-logo.png")no-repeat;
+
+        }
+        .header-nev{
+            float:right;
+            font-size: 14px;
+
+        }
+        .item{
+            float:left;
+            margin-top: 50px;
+            margin-left: 50px;
+            color:#b5b5b5;
+        }
+        .publish-container{
+            position: relative;
+            margin:0 auto;
+            width: 60vw;
+        }
+        .container-footer{
+            width: 1104px;
+            position: relative;
+            left: 50%;
+            margin-left:-552px;
+        }
+        .footer{
+            padding-top: 100px;
+            margin-top: 200px;
+            height: 217px;
+            background-color:#3b3b3b;
+
+        }
+        .foot-logo{
+            width:70px;
+            height: 30px;
+            background: url("../images/foot-logo.png");
+        }
+        .foot-co1{
+            width: 230px;
+            float:left;
+            margin-right:60px;
+            font-size: 16px;
+            color: #fff;
+            line-height: 2.0;
+        }
+        .foot-co1:last-of-type{
+            margin-right: 0;
+        }
+        .index-banner{
+        position: relative;
+
+        }
+        .index-banner-background{
+            height: 570px;
+            overflow:hidden;
+
+
+        }
+        .index-banner-background img{
+            margin:0 auto;
+            display:block;
+        }
+
+        .index-banner-text{
+            position: absolute;
+            top:200px;
+            margin-left: -368px;
+            left:50%;
+        }
+        .text-logo{
+            width:775px;
+            height: 117px;
+            background: url("../images/text-logo.png");
+        }
+        .index-banner-txt{
+            position: absolute;
+            top:140px;
+            margin-left: 224px;
+            color:#fff;
+        }
+        span{
+            margin:10px 26px;
+            font-size: 0.9vw;
+        }
+        .line-l{
+            display: inline-block;
+            width:40px;
+            border-top:1px solid #fff;
+            margin-left: -40px;
+            vertical-align: middle;
+        }
+        .line-r{
+            display: inline-block;
+            width:40px;
+            border-top:1px solid #fff;
+            margin-right: -40px;
+            vertical-align: middle;
+        }
+        .index-line{
+            width:1500px;
+            height:4px;
+            margin:0 auto;
+            display:block;
+            background-color:#f34949;
+        }
+        .menu{
+            width:155px;
+            height: 71px;
+            left:50%;
+            margin-left: -78px;
+            text-align: center;
+            font-size: 16px;
+            color:#fff;
+            line-height: 61px;
+            position: relative;
+            background-color:#f34949;
+        }
+        .menu:after{
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border-left:78px solid transparent;
+            border-right:78px solid transparent;
+            border-bottom:10px solid #fff;
+        }
+        li{
+            list-style: none;
+        }
+        .index-list-header{
+            margin-top: 81px;
+        }
+        .index-list{
+            color:#555;
+            overflow:hidden;
+        }
+        .container{
+            width: 70%;
+            position: relative;
+            left: 50%;
+            margin-left: -35%;
+        }
+        .common{
+            font-size: 10px;
+            color:#b7b7b7;
+            float:left;
+        }
+        .menu-list-price{
+            float:right;
+            margin-right: 30px;
+
+        }
+        .menu-list-left{
+            float:left;
+            width: 520px;
+            margin-right:60px;
+            margin-bottom: 56px;
+        }
+        .menu-list-right{
+            float:right;
+            width: 520px;
+            margin-left:620px;
+            margin-top: -86px;
+        }
+
+        .menu-list-title{
+            width: 230px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            float:left;
+        }
+        .menu-list-line{
+            margin-top: 10px;
+            width:192px;
+            border-bottom: 1px solid #e3e1e1;
+            float:left;
+        }
+        .select{
+            width: 134px;
+            height: 34px;
+            margin: auto;
+            z-index:1; 
+            left: 50%; 
+            border:1px solid #b7b7b7;
+            line-height: 34px;
+            position: absolute;
+            margin-left: -67px;
+            margin-top:100px;
+            color: #b7b7b7;
+        }
+        .select span{
+           padding-left: 24px;
+           font-size: 0.8vw;
+        }
+        .select-line{
+            height: 12px;
+            float: right;
+            margin-top: 11px;
+            margin-right: 13px;
+            border-left:1px solid #b7b7b7;
+        }
+        .select-dot{
+            width: 0;
+            height: 0;
+            margin-top: 15px;
+            margin-right: 6px;
+            float: right;
+            border: 6px solid transparent;
+            border-top-color: #b7b7b7;
+            position: relative;
+        }
+        .select-dots{
+            width: 0;
+            height: 0;
+            margin-top: -8px;
+            right: 6px;
+            border: 6px solid transparent;
+            border-top-color: #fff;
+            position: relative;
+        }
+        #select-down{
+            width: 134px;
+            border: 1px solid #b7b7b7;
+            text-align: center;
+            display: none;
+        }
+        #select-down li:hover{
+            background-color: #f34949;
+        }
+        #tab1{
+            position: relative;
+            left: 50%;
+            margin-left: -552px;
+        }
+        #tab2,#tab3,#tab4{
+            display: none;
+        }
+        .index-pancel{
+            margin-top: 200px;
+        }
+        .index-list-header{
+            overflow: hidden;
+        }
+        .index-pancel-header{
+            height: 20px;
+        }
+        h3{
+            float:left;
+            height: 17px;
+            line-height: 17px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+
+            font-size: 17px;
+            color:#3b3b3b;
+        }
+        .demo{
+            width: 1104px;
+            height: 432px;
+            position: relative;
+            left: 50%;
+            margin-left: -552px;
+        }
+        #demo1{
+            width: 368px;
+            height: 432px;
+            float: left;
+        }
+        #demo2{
+            width: 368px;
+            height: 216px;
+            float: left;
+        }
+        #demo3{
+            width: 368px;
+            height: 216px;
+            float: left;
+        }
+        #demo4{
+            width: 368px;
+            height: 216px;
+            float: left;
+        }
+        #demo5{
+            width: 368px;
+            height: 216px;
+            float: left;
+        }
+        #mo{
+            display: none;/*隐藏模态框*/
+            width: 100%;
+            height: 100%;
+            position: fixed;/*定位方式为固定定位*/
+            overflow: auto;/*不滚动*/
+            background-color: rgba(0,0,0,0.7);
+            top: 0px;
+            left: 0px;
+            z-index: 1;/*置于页面图层之上*/
+        }
+        .close{
+            font-size: 40px;
+            font-weight: bold;
+            position: absolute;
+            top: 20px;
+            right: 14%;
+            color:#f1f1f1;
+        }
+        .close:hover,
+        .close:focus{
+            color:#bbb;
+            cursor:pointer;
+        }
+        #moimg{
+            display: block;/*图片表现为块*/
+            margin:25px auto;/*图片居中对齐*/
+            width: 60%;
+            max-width: 750px;/*自适应布局*/
+        }
+        #caption{
+            text-align: center;/*文本居中*/
+            margin: 15px auto;
+            width: 60%;
+            max-height: 750px;
+            font-size: 20px;
+            color:#ccc;
+        }
+        #moimg,#caption{
+            -webkit-animation: first 1s;
+            -o-animation: first 1s;
+            animation: first 1s;
+        }
+        @keyframes first{
+            from{transform: scale(0.1);}
+            to{transform: scale(1);}
+        }
+        .index-pancel-line{
+            float:left;
+            margin-top: 10px;
+            margin-left: 18px;
+            width:200px;
+            border-bottom: 1px solid #e3e1e1;
+        }
+        .group{
+            font-size: 0;
+            float:right;
+        }
+        .btn{
+            display: inline-block;
+            margin-left: 11px;
+            width: 9px;
+            height: 9px;
+            background-color: #dedede;
+            border-radius:50%;
+        }
+        .btn:hover{
+        background-color: #3b3b3b;
+        }
+        
+        
+        .clearfloat{
+            width:1100px;
+        }
+        .food-item{
+            float:left;
+            width: 230px;
+            margin-right: 60px;
+            margin-top: 50px;
+            height: 267px;
+
+        }
+        .banner{
+            margin-top: 80px;
+            margin-bottom: 30px;
+            height: 202px;
+        }
+        .food-name{
+            font-size: 0.9vw;
+        }
+        .price{
+            float:right;
+            font-size: 0.9vw;
+            margin-top: -1.2vw;
+        }
+        .star-bar{
+            font-size: 0;
+        }
+        .star {
+            display: inline-block;
+            width: 12px;
+            height: 13px;
+            margin-right: 5px;
+
+            background-repeat: no-repeat;
+        }
+        .food-item1{
+            float:right;
+            margin-top: -267px;
+            height: 267px;
+        }
+        .index-pancel{
+            margin-top: 563px;
+        }
+        .demo{
+            margin-top: 79px;
+        }
+
+

@@ -1,0 +1,51 @@
+.public-header{
+    height: 110px;
+;
+}
+.header-logo{
+    float:left;
+    width:68px;
+    height:30px;
+    margin-top: 50px;
+    background:url("../images/index-header-logo.png")
+
+}
+.header-nev{
+    float:right;
+    font-size: 14px;
+
+}
+.item{
+    float:left;
+    margin-top: 50px;
+    margin-left: 50px;
+    color:#b5b5b5;
+}
+.publish-container{
+    position: relative;
+    margin:0 auto;
+    width: 1102px;
+}
+.footer{
+    padding-top: 100px;
+
+    height: 217px;
+    background-color:#3b3b3b;
+
+}
+.foot-logo{
+    width:70px;
+    height: 30px;
+    background: url("../images/foot-logo.png");
+}
+.foot-co1{
+    width: 230px;
+    float:left;
+    margin-right:60px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.8;
+}
+.foot-co1:last-child{
+    margin-right: 0;
+}
